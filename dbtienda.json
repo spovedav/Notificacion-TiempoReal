@@ -1,0 +1,17 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dbtienda"},
+{"type":"table","name":"productos","database":"dbtienda","data":
+[
+{"Id":"1","NombreProductos":"Armario","Stock":"800","Precio":"300"},
+{"Id":"2","NombreProductos":"Cama","Stock":"700","Precio":"150"},
+{"Id":"3","NombreProductos":"Espejo","Stock":"100","Precio":"10"}
+]
+}
+,{"type":"table","name":"ventas","database":"dbtienda","data":
+[
+{"Id":"1","NombreProducto":"Espejo","Cantidad":"10","Vendedor":"Vendedor01","Cliente":"cliente1","ProductoEntregado":"1","Notificacion":"1"},
+{"Id":"2","NombreProducto":"Armario","Cantidad":"290","Vendedor":"Vendedor02","Cliente":"cliente2","ProductoEntregado":"1","Notificacion":"1"}
+]
+}
+]
